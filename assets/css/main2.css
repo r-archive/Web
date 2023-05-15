@@ -1,19 +1,7 @@
-#wrapper{
-/*    border:5px solid red;*/
-}
-
-#wrapper>*{
-/*    border: 5px solid green;*/
-}
-
-#wrapper>*>*{
-/*    border: 5px solid blue;*/
-}
-
 body{
     background-image: url(../../images/darkgreen.jpg); 
     background-size:cover;
-    font-family: "Source Scans Pro", sans-serif;
+    font-family: "Source Scans Pro", Helvetica, sans-serif;
 }
 
 #wrapper{
@@ -137,7 +125,7 @@ body{
     border-bottom: 1px dotted rgba(255,255,255,0.5);
 }
 
-#footer:before{
+#footer::before{
     content:'';
     display: block;
     margin:2rem auto;
